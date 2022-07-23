@@ -48,14 +48,17 @@ ADDL_CONFIG_OPTIONS=()
 if bashio::config.has_value 'default_battery_strategy'; then
   ADDL_CONFIG_OPTIONS+=(--default-battery-strategy="$(bashio::config 'default_battery_strategy')")
 fi
-if bashio::config.has_value 'diagnostics'; then
+if bashio::config.true 'diagnostics'; then
   ADDL_CONFIG_OPTIONS+=(--diagnostics)
+fi
+if bashio::config.true 'disable_calculated_data'; then
+  ADDL_CONFIG_OPTIONS+=(--disable-calculated-data)
 fi
 if bashio::config.has_value 'endpoint'; then
   ADDL_CONFIG_OPTIONS+=(--endpoint="$(bashio::config 'endpoint')")
 fi
 if bashio::config.has_value 'hass_discovery_prefix'; then
-  ADDL_CONFIG_OPTIONS+=(--hass-discovery-prefix="$(bashio::config 'hass-discovery-prefix')")
+  ADDL_CONFIG_OPTIONS+=(--hass-discovery-prefix="$(bashio::config 'hass_discovery_prefix')")
 fi
 if bashio::config.has_value 'hass_entity_id_prefix'; then
   ADDL_CONFIG_OPTIONS+=(--hass-entity-id-prefix="$(bashio::config 'hass_entity_id_prefix')")
@@ -66,7 +69,7 @@ fi
 if bashio::config.has_value 'output_unit_system'; then
   ADDL_CONFIG_OPTIONS+=(--output-unit-system="$(bashio::config 'output_unit_system')")
 fi
-if bashio::config.has_value 'verbose'; then
+if bashio::config.true 'verbose'; then
   ADDL_CONFIG_OPTIONS+=(--verbose)
 fi
 
@@ -78,4 +81,5 @@ ecowitt2mqtt \
     --mqtt-username="${MQTT_UERSNAME}" \
     --mqtt-password="${MQTT_PASSWORD}" \
     --port=8080 \
+    --hass-discovery \
     "${ADDL_CONFIG_OPTIONS[@]}"
