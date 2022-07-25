@@ -1,0 +1,48 @@
+---
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+boot: auto
+description: >-
+  A small web server to send data from Ecowitt devices to an MQTT Broker
+# image: "bachya/ecowitt2mqtt"
+init: false
+map:
+  - share:rw
+name: ecowitt2mqtt
+options:
+  default_battery_strategy: numeric
+  diagnostics: false
+  disable_calculated_data: false
+  endpoint: /data/report
+  hass_discovery_prefix: homeassistant
+  input_unit_system: imperial
+  output_unit_system: imperial
+  verbose: false
+ports:
+  "8080/tcp": 8080
+ports_description:
+  "8080/tcp": "The port the Ecowitt will use to submit data to Home Assistant"
+schema:
+  default_battery_strategy: "list(boolean|numeric|percentage)"
+  diagnostics: "bool"
+  disable_calculated_data: "bool"
+  endpoint: "str?"
+  hass_discovery_prefix: "str?"
+  hass_entity_id_prefix: "str?"
+  input_unit_system: "list(imperial|metric)"
+  mqtt_host: "str?"
+  mqtt_password: "password?"
+  mqtt_port: "port?"
+  mqtt_username: "str?"
+  output_unit_system: "list(imperial|metric)"
+  verbose: "bool"
+services:
+  - "mqtt:need"
+slug: ecowitt2mqtt
+stage: stable
+url: "https://github.com/bachya/ecowitt2mqtt-home-assistant-addon"
+version: "2022.07.3"

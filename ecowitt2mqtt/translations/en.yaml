@@ -1,0 +1,44 @@
+---
+configuration:
+  default_battery_strategy:
+    name: Default battery strategy
+    description: >-
+      The default strategy to use when encountering an unknown type of battery.
+  diagnostics:
+    name: Diagnostics
+    description: Log a diagnostics output and immediately exit the add-on.
+  disable_calculated_data:
+    name: Disable calculated data
+    description: >-
+      Disable the creation of calculated data points (e.g., wind chill, heat
+      index, etc.)
+  endpoint:
+    name: Endpoint
+    description: The relative WS View endpoint/path to serve ecowitt2mqtt on.
+  hass_discovery_prefix:
+    name: MQTT Discovery prefix
+    description: The MQTT Discovery prefix to use.
+  hass_entity_id_prefix:
+    name: Entity ID prefix
+    description: A string prefix to prepend on all generated entity IDs.
+  input_unit_system:
+    name: Input unit system
+    description: The incoming unit system to use.
+  output_unit_system:
+    name: Output unit system
+    description: The unit system to use when outputting to MQTT.
+  verbose:
+    name: Verbose
+    description: Enable verbose log output.
+  mqtt_host:
+    name: MQTT host
+    description: The MQTT host to use (if not using MQTT add-on).
+  mqtt_password:
+    name: MQTT password
+    description: The MQTT password to use (if not using MQTT add-on).
+  mqtt_port:
+    name: MQTT port
+    description: The MQTT port to use (if not using MQTT add-on).
+  mqtt_username:
+    name: MQTT username
+    description: The MQTT username to use (if not using MQTT add-on).
