@@ -2,6 +2,8 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
+ARG ECOWITT2MQTT_VERSION=2022.07.4
+
 # Install and build ecowitt2mqtt:
 RUN apk add --no-cache \
         python3 \
@@ -11,8 +13,8 @@ RUN apk add --no-cache \
         libc-dev \
         musl-dev \
     && python3 -m ensurepip \
-    && pip3 install --no-cache --upgrade pip setuptools wheel \
-    && pip3 install --no-cache ecowitt2mqtt==2022.07.3 \
+    && pip3 install --no-cache-dir --upgrade pip setuptools wheel \
+    && pip3 install --no-cache-dir ecowitt2mqtt==${ECOWITT2MQTT_VERSION} \
     && apk del build-dependencies
 
 # Copy root filesystem
