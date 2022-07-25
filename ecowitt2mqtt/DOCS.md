@@ -1,4 +1,4 @@
-# Home Assistant OS Add-on: ecowitt2mqtt
+# Home Assistant Add-on: ecowitt2mqtt
 
 `ecowitt2mqtt` is a small CLI/web server that allows [Ecowitt][ecowitt]
 device data to be sent to an MQTT broker.

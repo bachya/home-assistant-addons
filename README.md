@@ -1,4 +1,4 @@
-# Home Assistant OS Add-on: ecowitt2mqtt
+# Home Assistant Add-on: ecowitt2mqtt
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
