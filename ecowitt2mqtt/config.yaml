@@ -8,7 +8,7 @@ arch:
 boot: auto
 description: >-
   A small web server to send data from Ecowitt devices to an MQTT Broker
-# image: "bachya/ecowitt2mqtt"
+image: "bachya/ecowitt2mqtt"
 init: false
 map:
   - share:rw
@@ -45,4 +45,4 @@ services:
 slug: ecowitt2mqtt
 stage: stable
 url: "https://github.com/bachya/ecowitt2mqtt-home-assistant-addon"
-version: "2022.07.3"
+version: "2022.07.4"
