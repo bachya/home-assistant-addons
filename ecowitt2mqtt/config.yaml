@@ -5,7 +5,6 @@ arch:
   - armv7
   - aarch64
   - amd64
-boot: auto
 codenotary: bachya1208@gmail.com
 description: >-
   A small web server to send data from Ecowitt devices to an MQTT Broker
@@ -44,6 +43,5 @@ schema:
 services:
   - "mqtt:need"
 slug: ecowitt2mqtt
-stage: stable
 url: "https://github.com/bachya/ecowitt2mqtt-home-assistant-addon"
 version: "2022.07.4"
