@@ -125,7 +125,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=a0d7b954_adguard&repository_url=https%3A%2F%2Fgithub.com%2Fbachya%2Frepository
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=159c2739_ecowitt2mqtt&repository_url=https%3A%2F%2Fgithub.com%2Fbachya%2Frepository
 [bachya]: https://github.com/bachya
 [contributors]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e

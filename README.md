@@ -86,7 +86,7 @@ SOFTWARE.
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
 [dockerhub]: https://hub.docker.com/r/bachya/ecowitt2mqtt-home-assistant-addon
-[docs]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon/blob/main/adguard/DOCS.md
+[docs]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon/blob/dev/ecowitt2mqtt/DOCS.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/ecowitt2mqtt-send-data-from-an-ecowitt-device-to-mqtt
 [bachya]: https://github.com/bachya
