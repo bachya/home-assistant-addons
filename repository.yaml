@@ -1,5 +1,5 @@
 ---
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: bachya's Add-ons
+name: bachya's Home Assistant Add-ons
 url: "https://github.com/bachya/home-assistant-addons"
 maintainer: Aaron Bach <bachya1208@gmail.com>
