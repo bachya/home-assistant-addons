@@ -80,6 +80,10 @@ The `output_unit_system` option defines the unit system to use when outputting t
 - `imperial`
 - `metric`
 
+## Option: `mqtt_retain`
+
+The `mqtt_retain` option defines whether the MQTT broker should retain data sent to it.
+
 ## Option: `verbose`
 
 The `verbose` option enables verbose log output.
