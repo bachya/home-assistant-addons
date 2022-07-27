@@ -93,6 +93,14 @@ You have several options to get them answered:
 
 You could also [open an issue here][issue] GitHub.
 
+## Contributing
+
+This is an active open-source project. We are always open to people who want to
+use the code or contribute to it.
+
+We have set up a separate document containing our
+[contribution guidelines](.github/CONTRIBUTING.md).
+
 ## Authors & Contributors
 
 The original setup of this repository is by [Aaron Bach][bachya].
@@ -125,12 +133,12 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
-[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=ecowitt2mqtt&repository_url=https%3A%2F%2Fgithub.com%2Fbachya%2Fecowitt2mqtt-home-assistant-addon
+[addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=ecowitt2mqtt&repository_url=https%3A%2F%2Fgithub.com%2Fbachya%2Fhome-assistant-addons
 [bachya]: https://github.com/bachya
-[contributors]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon/graphs/contributors
+[contributors]: https://github.com/bachya/home-assistant-addons/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [ecowitt]: http://www.ecowitt.com
 [forum]: https://community.home-assistant.io/t/ecowitt2mqtt-send-data-from-an-ecowitt-device-to-mqtt
-[issue]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon/issues
+[issue]: https://github.com/bachya/home-assistant-addons/issues
 [reddit]: https://reddit.com/r/homeassistant
-[releases]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon/releases
+[releases]: https://github.com/bachya/home-assistant-addons/releases

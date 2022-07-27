@@ -12,8 +12,7 @@ labels:
   org.opencontainers.image.description: >-
     A small CLI/web server that allows [Ecowitt](http://www.ecowitt.com) device
     data to be sent to an MQTT broker.
-  org.opencontainers.image.source: >-
-    https://github.com/bachya/ecowitt2mqtt-home-assistant-addon
+  org.opencontainers.image.source: "https://github.com/bachya/home-assistant-addons"
   org.opencontainers.image.licenses: "MIT"
 args:
   TEMPIO_VERSION: "2021.09.0"
