@@ -39,6 +39,9 @@ configuration:
   mqtt_port:
     name: MQTT port
     description: The MQTT port to use (if not using MQTT add-on).
+  mqtt_retain:
+    name: MQTT retain
+    description: Whether to retain messages on the MQTT broker.
   mqtt_username:
     name: MQTT username
     description: The MQTT username to use (if not using MQTT add-on).
