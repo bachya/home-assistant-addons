@@ -1,13 +1,3 @@
-## 1.2.0
+# 2022.07.4
 
-- Add an apparmor profile
-- Update to 3.15 base image with s6 v3
-- Add a sample script to run as service and constrain in aa profile
-
-## 1.1.0
-
-- Updates
-
-## 1.0.0
-
-- Initial release
+* Initial release of the add-on
