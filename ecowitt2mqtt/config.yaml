@@ -5,7 +5,6 @@ arch:
   - armv7
   - aarch64
   - amd64
-codenotary: bachya1208@gmail.com
 description: >-
   A small web server to send data from Ecowitt devices to an MQTT Broker
 image: "bachya/ecowitt2mqtt"
