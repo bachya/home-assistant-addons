@@ -7,3 +7,4 @@ Fixes https://github.com/bachya/home-assistant-addons/issues/<ISSUE ID>
 **Checklist:**
 
 - [ ] Update `README.md` with any new documentation.
+- [ ] Update `CHANGELOG.md` with any new documentation.
