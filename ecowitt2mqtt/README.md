@@ -12,8 +12,11 @@
 [![Github Actions][github-actions-shield]][github-actions]
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
+[![Say Thanks][say-thanks-shield]][say-thanks]
 
 [![Community Forum][forum-shield]][forum]
+
+<a href="https://www.buymeacoffee.com/bachya1208P" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ## About
 
@@ -100,3 +103,5 @@ SOFTWARE.
 [releases-shield]: https://img.shields.io/github/release/bachya/ecowitt2mqtt-home-assistant-addon.svg
 [releases]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon/releases
 [repository]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon
+[say-thanks]: https://saythanks.io/to/bachya
+[say-thanks-shield]: https://img.shields.io/badge/SayThanks-!-1EAEDB.svg
