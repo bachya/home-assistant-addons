@@ -8,12 +8,12 @@ bashio::log.info "Fetching configuration..."
 MQTT_HOST=""
 MQTT_PASSWORD=""
 MQTT_PORT=1883
-MQTT_UERSNAME=""
+MQTT_USERNAME=""
 
 if bashio::services.available "mqtt"; then
   MQTT_HOST="$(bashio::services "mqtt" "host")"
   MQTT_PORT="$(bashio::services "mqtt" "port")"
-  MQTT_UERSNAME="$(bashio::services "mqtt" "username")"
+  MQTT_USERNAME="$(bashio::services "mqtt" "username")"
   MQTT_PASSWORD="$(bashio::services "mqtt" "password")"
 fi
 
@@ -24,15 +24,15 @@ fi
 if bashio::config.has_value 'mqtt_port'; then
   MQTT_PORT="$(bashio::config 'mqtt_port')"
 fi
-if bashio::config.has_value 'mqtt_user'; then
-  MQTT_UERSNAME="$(bashio::config 'mqtt_user')"
+if bashio::config.has_value 'mqtt_username'; then
+  MQTT_USERNAME="$(bashio::config 'mqtt_username')"
 fi
-if bashio::config.has_value 'mqtt_pass'; then
-  MQTT_PASSWORD="$(bashio::config 'mqtt_pass')"
+if bashio::config.has_value 'mqtt_password'; then
+  MQTT_PASSWORD="$(bashio::config 'mqtt_password')"
 fi
 
 # Fail if we're missing MQTT config:
-if [[ -z "${MQTT_HOST}" || -z "${MQTT_PORT}" || -z "${MQTT_UERSNAME}" || -z "${MQTT_PASSWORD}" ]]; then
+if [[ -z "${MQTT_HOST}" || -z "${MQTT_PORT}" || -z "${MQTT_USERNAME}" || -z "${MQTT_PASSWORD}" ]]; then
   bashio::log.fatal "MQTT configuration not found; cannot continue."
   exit 1
 fi
@@ -40,7 +40,7 @@ fi
 # Log the MQTT parameters:
 bashio::log.info "Using MQTT host: ${MQTT_HOST}"
 bashio::log.info "Using MQTT port: ${MQTT_PORT}"
-bashio::log.info "Using MQTT username: ${MQTT_UERSNAME}"
+bashio::log.info "Using MQTT username: ${MQTT_USERNAME}"
 bashio::log.info "Using MQTT password: REDACTED"
 
 # Define config options to use:
@@ -79,7 +79,7 @@ bashio::log.info "Starting Ecowitt2MQTT"
 ecowitt2mqtt \
     --mqtt-broker="${MQTT_HOST}" \
     --mqtt-port="${MQTT_PORT}" \
-    --mqtt-username="${MQTT_UERSNAME}" \
+    --mqtt-username="${MQTT_USERNAME}" \
     --mqtt-password="${MQTT_PASSWORD}" \
     --port=8080 \
     --hass-discovery \
