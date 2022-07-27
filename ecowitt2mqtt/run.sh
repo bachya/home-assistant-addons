@@ -1,4 +1,5 @@
 #!/usr/bin/with-contenv bashio
+set -e
 
 # Get supervisor configuration:
 bashio::log.info "Fetching configuration..."
