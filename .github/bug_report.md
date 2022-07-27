@@ -4,6 +4,9 @@ about: Create a report to help us improve
 
 ---
 
+**What add-on is this for?**
+Include the add-on that has the issue.
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 

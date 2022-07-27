@@ -2,7 +2,7 @@
 
 **Does this fix a specific issue?**
 
-Fixes https://github.com/bachya/ecowitt2mqtt/issues/<ISSUE ID>
+Fixes https://github.com/bachya/home-assistant-addons/issues/<ISSUE ID>
 
 **Checklist:**
 
