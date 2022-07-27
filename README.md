@@ -20,8 +20,8 @@
 
 This repo hosts Home Assistant OS add-ons that I maintain:
 
-* [`ecowitt2mqtt`](https://github.com/bachya/home-assistant-addons/tree/dev/ecowitt2mqtt):
-  a small CLI/web server that received Ecowitt device data to be sent to an MQTT broker.
+* [`ecowitt2mqtt`][ecowitt2mqtt]: a small CLI/web server that received Ecowitt device data
+  to be sent to an MQTT broker.
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
@@ -30,7 +30,7 @@ This repo hosts Home Assistant OS add-ons that I maintain:
 [bachya]: https://github.com/bachya
 [commits-shield]: https://img.shields.io/github/commit-activity/y/bachya/home-assistant-addons.svg
 [commits]: https://github.com/bachya/home-assistant-addons/commits/main
-[ecowitt2mqtt]: https://github.com/bachya/home-assistant-addons/blob/dev/ecowitt2mqtt/DOCS.md
+[ecowitt2mqtt]: https://github.com/bachya/home-assistant-addons/tree/dev/ecowitt2mqtt
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [github-actions-shield]: https://github.com/bachya/home-assistant-addons/workflows/CI/badge.svg
 [github-actions]: https://github.com/bachya/home-assistant-addons/actions
