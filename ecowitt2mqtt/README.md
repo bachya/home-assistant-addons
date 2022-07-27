@@ -152,13 +152,32 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+[aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=ecowitt2mqtt&repository_url=https%3A%2F%2Fgithub.com%2Fbachya%2Fhome-assistant-addons
+[amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
+[armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
+[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
 [bachya]: https://github.com/bachya
+[commits-shield]: https://img.shields.io/github/commit-activity/y/bachya/home-assistant-addons.svg
+[commits]: https://github.com/bachya/home-assistant-addons/commits/main
 [contributors]: https://github.com/bachya/home-assistant-addons/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
+[discord-shield]: https://img.shields.io/discord/478094546522079232.svg
+[dockerhub]: https://hub.docker.com/r/bachya/home-assistant-addons
+[docs]: https://github.com/bachya/home-assistant-addons/blob/dev/ecowitt2mqtt/DOCS.md
 [ecowitt]: http://www.ecowitt.com
+[forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/ecowitt2mqtt-send-data-from-an-ecowitt-device-to-mqtt
+[github-actions-shield]: https://github.com/bachya/home-assistant-addons/workflows/CI/badge.svg
+[github-actions]: https://github.com/bachya/home-assistant-addons/actions
 [issue]: https://github.com/bachya/home-assistant-addons/issues
+[license-shield]: https://img.shields.io/github/license/bachya/home-assistant-addons.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
+[project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
+[releases-shield]: https://img.shields.io/github/release/bachya/home-assistant-addons.svg
 [releases]: https://github.com/bachya/home-assistant-addons/releases
+[repository]: https://github.com/bachya/home-assistant-addons
+[say-thanks-shield]: https://img.shields.io/badge/SayThanks-!-1EAEDB.svg
+[say-thanks]: https://saythanks.io/to/bachya
