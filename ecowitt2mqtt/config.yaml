@@ -17,6 +17,7 @@ options:
   endpoint: /data/report
   hass_discovery_prefix: homeassistant
   input_unit_system: imperial
+  mqtt_retain: true
   output_unit_system: imperial
   verbose: false
 ports:
@@ -35,6 +36,7 @@ schema:
   mqtt_host: "str?"
   mqtt_password: "password?"
   mqtt_port: "port?"
+  mqtt_retain: "bool"
   mqtt_username: "str?"
   output_unit_system: "list(imperial|metric)"
   verbose: "bool"
