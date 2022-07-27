@@ -1,5 +1,5 @@
 ---
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: ecowitt2mqtt-home-assistant-addon
+name: ecowitt2mqtt
 url: "https://github.com/bachya/ecowitt2mqtt-home-assistant-addon"
 maintainer: Aaron Bach <bachya1208@gmail.com>
