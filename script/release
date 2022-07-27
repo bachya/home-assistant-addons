@@ -19,7 +19,7 @@ function generate_version {
     fi
 }
 
-# Temporarily uninstall pre-commit hooks so that we can push to dev and master:
+# Temporarily uninstall pre-commit hooks so that we can push to dev and main:
 pre-commit uninstall
 
 # Pull the latest dev:
@@ -32,8 +32,8 @@ new_version=$(generate_version)
 git tag "$new_version"
 git push && git push --tags
 
-# Merge dev into master:
-git checkout master
+# Merge dev into main:
+git checkout main
 git merge dev
 git push
 git checkout dev
