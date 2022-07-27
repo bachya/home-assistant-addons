@@ -29,7 +29,6 @@ git pull origin dev
 new_version=$(generate_version)
 
 # Commit, tag, and push:
-git commit -m "Bump version to $new_version"
 git tag "$new_version"
 git push && git push --tags
 
