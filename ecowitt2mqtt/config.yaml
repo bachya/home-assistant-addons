@@ -24,7 +24,8 @@ options:
 ports:
   "8080/tcp": 8080
 ports_description:
-  "8080/tcp": "The port the Ecowitt will use to submit data to Home Assistant"
+  "8080/tcp": >-
+    The port the Ecowitt gateway will use to submit data to Home Assistant
 schema:
   default_battery_strategy: "list(boolean|numeric|percentage)"
   diagnostics: "bool"
