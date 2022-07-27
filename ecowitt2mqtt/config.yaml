@@ -5,7 +5,6 @@ arch:
   - armv7
   - aarch64
   - amd64
-codenotary: bachya1208@gmail.com
 description: >-
   A small web server to send data from Ecowitt devices to an MQTT Broker
 image: "bachya/ecowitt2mqtt"
@@ -41,7 +40,7 @@ schema:
   output_unit_system: "list(imperial|metric)"
   verbose: "bool"
 services:
-  - "mqtt:need"
+  - "mqtt:want"
 slug: ecowitt2mqtt
 url: "https://github.com/bachya/ecowitt2mqtt-home-assistant-addon"
 version: "2022.07.4"
