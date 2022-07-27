@@ -1,4 +1,4 @@
-# Home Assistant Add-on: ecowitt2mqtt
+# Home Assistant Add-ons
 
 [![GitHub Release][releases-shield]][releases]
 ![Project Stage][project-stage-shield]
@@ -13,14 +13,12 @@
 ![Project Maintenance][maintenance-shield]
 [![GitHub Activity][commits-shield]][commits]
 
-[![Community Forum][forum-shield]][forum]
-
 ## About
 
-`ecowitt2mqtt` is a small CLI/web server that allows [Ecowitt](http://www.ecowitt.com)
-device data to be sent to an MQTT broker.
+This repo hosts Home Assistant OS add-ons that I maintain:
 
-[:books: Read the full add-on documentation][docs]
+* [`ecowitt2mqtt`](https://github.com/bachya/home-assistant-addons/tree/dev/ecowitt2mqtt):
+  a small CLI/web server that received Ecowitt device data to be sent to an MQTT broker.
 
 ## Support
 
@@ -42,8 +40,6 @@ use the code or contribute to it.
 
 We have set up a separate document containing our
 [contribution guidelines](.github/CONTRIBUTING.md).
-
-Thank you for being involved! :heart_eyes:
 
 ## Authors & Contributors
 
@@ -80,23 +76,22 @@ SOFTWARE.
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
 [armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
-[commits-shield]: https://img.shields.io/github/commit-activity/y/bachya/ecowitt2mqtt-home-assistant-addon.svg
-[commits]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon/commits/main
-[contributors]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon/graphs/contributors
+[bachya]: https://github.com/bachya
+[commits-shield]: https://img.shields.io/github/commit-activity/y/bachya/home-assistant-addons.svg
+[commits]: https://github.com/bachya/home-assistant-addons/commits/main
+[contributors]: https://github.com/bachya/home-assistant-addons/graphs/contributors
 [discord-ha]: https://discord.gg/c5DvZ4e
 [discord-shield]: https://img.shields.io/discord/478094546522079232.svg
-[dockerhub]: https://hub.docker.com/r/bachya/ecowitt2mqtt-home-assistant-addon
-[docs]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon/blob/dev/ecowitt2mqtt/DOCS.md
+[dockerhub]: https://hub.docker.com/r/bachya/home-assistant-addons
+[ecowitt2mqtt]: https://github.com/bachya/home-assistant-addons/blob/dev/ecowitt2mqtt/DOCS.md
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
-[forum]: https://community.home-assistant.io/t/ecowitt2mqtt-send-data-from-an-ecowitt-device-to-mqtt
-[bachya]: https://github.com/bachya
-[github-actions-shield]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon/workflows/CI/badge.svg
-[github-actions]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon/actions
-[issue]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon/issues
-[license-shield]: https://img.shields.io/github/license/bachya/ecowitt2mqtt-home-assistant-addon.svg
+[github-actions-shield]: https://github.com/bachya/home-assistant-addons/workflows/CI/badge.svg
+[github-actions]: https://github.com/bachya/home-assistant-addons/actions
+[issue]: https://github.com/bachya/home-assistant-addons/issues
+[license-shield]: https://img.shields.io/github/license/bachya/home-assistant-addons.svg
 [maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
-[releases-shield]: https://img.shields.io/github/release/bachya/ecowitt2mqtt-home-assistant-addon.svg
-[releases]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon/releases
-[repository]: https://github.com/bachya/ecowitt2mqtt-home-assistant-addon
+[releases-shield]: https://img.shields.io/github/release/bachya/home-assistant-addons.svg
+[releases]: https://github.com/bachya/home-assistant-addons/releases
+[repository]: https://github.com/bachya/home-assistant-addons
