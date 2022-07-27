@@ -1,15 +1,9 @@
 # 2022.07.4
 
-## 🚀 Features
+## `ecowitt2mqtt`
 
-- Add ability to disable calculated sensors (#225)
+https://github.com/bachya/ecowitt2mqtt/releases/tag/2022.07.4
 
-## 🐛 Bug Fixes
+## Add-on
 
-- Fix memory leak in HASS MQTT Publishing (#228)
-- Fix mispelled config option (#226)
-
-## 🧰 Maintenance
-
-- Add a logo to the readme (#227)
-- Delete spurious print statements from #222 (#224)
+* Initial release of the addon
