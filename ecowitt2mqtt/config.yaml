@@ -7,7 +7,7 @@ arch:
   - amd64
 description: >-
   A small web server to send data from Ecowitt devices to an MQTT Broker
-image: "ghcr.io/bachya/home-assistant-addon-ecowitt2mqtt"
+image: "ghcr.io/bachya/home-assistant-addon-ecowitt2mqtt-{arch}"
 init: false
 name: home-assistant-addon-ecowitt2mqtt
 options:
