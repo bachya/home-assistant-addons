@@ -1,3 +1,13 @@
+# 2022.08.0
+
+## `ecowitt2mqtt`
+
+https://github.com/bachya/ecowitt2mqtt/releases/tag/2022.08.0
+
+## Add-on
+
+* Bump `ecowitt2mqtt` to 2022.08.0 (#13)
+
 # 2022.07.7
 
 ## `ecowitt2mqtt`
