@@ -173,7 +173,7 @@ SOFTWARE.
 [ecowitt]: http://www.ecowitt.com
 [forum-shield]: https://img.shields.io/badge/community-forum-brightgreen.svg
 [forum]: https://community.home-assistant.io/t/ecowitt2mqtt-send-data-from-an-ecowitt-device-to-mqtt
-[github-actions-shield]: https://github.com/bachya/home-assistant-addons/actions/workflows/builder.yaml/badge.svg
+[github-actions-shield]: https://github.com/bachya/home-assistant-addons/actions/workflows/builder.yaml/badge.svg?branch=main
 [github-actions]: https://github.com/bachya/home-assistant-addons/actions
 [issue]: https://github.com/bachya/home-assistant-addons/issues
 [license-shield]: https://img.shields.io/github/license/bachya/home-assistant-addons.svg
