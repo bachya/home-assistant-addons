@@ -43,5 +43,5 @@ schema:
 services:
   - "mqtt:want"
 slug: ecowitt2mqtt
-url: "https://github.com/bachya/home-assistant-addons/tree/dev/ecowitt2mqtt"
+url: "https://github.com/bachya/home-assistant-addons/tree/main/ecowitt2mqtt"
 version: "2022.08.2"
