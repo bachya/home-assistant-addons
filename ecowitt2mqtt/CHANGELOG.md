@@ -6,7 +6,9 @@ https://github.com/bachya/ecowitt2mqtt/releases/tag/2022.08.4
 
 ## Add-on
 
-* Bump `ecowitt2mqtt` to 2022.08.4 (#19)
+* Bump `ecowitt2mqtt` to 2022.08.4 (#22)
+* Bump frenck/action-addon-linter from 2.9 to 2.10 (#21)
+* Update frenck/action-addon-linter action to v2.10  dependencies (#20)
 
 # 2022.08.3
 
