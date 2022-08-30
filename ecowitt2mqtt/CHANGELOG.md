@@ -1,3 +1,18 @@
+# 2022.08.5
+
+## `ecowitt2mqtt`
+
+https://github.com/bachya/ecowitt2mqtt/releases/tag/2022.08.5
+
+Note that 2022.08.5 introduces the ability to specify multiple independent gateway
+configurations via the config file, but Home Assistant users should noet that the config
+file is not supported in this add-on. Home Assistant MQTT Discovery handles multiple
+Ecowitt gateways natively.
+
+## Add-on
+
+* Bump `ecowitt2mqtt` to 2022.08.5 (#24)
+
 # 2022.08.4
 
 ## `ecowitt2mqtt`
