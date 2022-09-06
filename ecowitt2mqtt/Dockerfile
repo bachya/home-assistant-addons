@@ -2,7 +2,7 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-ARG ECOWITT2MQTT_VERSION=2022.08.5
+ARG ECOWITT2MQTT_VERSION=2022.09.0
 
 # Install and build ecowitt2mqtt:
 RUN apk add --no-cache \
