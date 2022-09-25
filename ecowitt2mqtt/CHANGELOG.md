@@ -6,6 +6,7 @@
 
 ## Add-on
 
+* Fix more formatting issues (#33)
 * Restore accidentally-removed AppArmor profile (#32)
 * Bump `ecowitt2mqtt` to 2022.09.3 (#31)
 * Add proper usage of s6 (#30)
