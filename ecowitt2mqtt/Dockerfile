@@ -1,5 +1,5 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-dockerfile
-ARG BUILD_FROM=ghcr.io/hassio-addons/debian-base:6.1.2
+ARG BUILD_FROM
 FROM $BUILD_FROM
 
 ARG ECOWITT2MQTT_VERSION=2022.09.2
