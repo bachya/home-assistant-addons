@@ -7,6 +7,7 @@ repos:
         args:
           - --skip="./.*,*.json"
           - --quiet-level=4
+          - -L hass
         exclude_types: [json]
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v2.4.0

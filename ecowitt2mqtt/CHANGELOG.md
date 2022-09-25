@@ -1,3 +1,14 @@
+# 2022.09.3
+
+## `ecowitt2mqtt`
+
+* https://github.com/bachya/ecowitt2mqtt/releases/tag/2022.09.3
+
+## Add-on
+
+* Bump `ecowitt2mqtt` to 2022.09.3 (#31)
+* Add proper usage of s6 (#30)
+
 # 2022.09.2
 
 This is a quick bugfix on top of 2022.09.1 after its publish, but prior to its release.
