@@ -7,7 +7,7 @@ arch:
   - amd64
 description: >-
   A small web server to send data from Ecowitt devices to an MQTT Broker
-# image: "ghcr.io/bachya/home-assistant-addon-ecowitt2mqtt-{arch}"
+image: "ghcr.io/bachya/home-assistant-addon-ecowitt2mqtt-{arch}"
 init: false
 name: ecowitt2mqtt
 options:
@@ -43,5 +43,5 @@ schema:
 services:
   - "mqtt:want"
 slug: ecowitt2mqtt
-# url: "https://github.com/bachya/home-assistant-addons/tree/main/ecowitt2mqtt"
+url: "https://github.com/bachya/home-assistant-addons/tree/main/ecowitt2mqtt"
 version: "2022.09.3"
