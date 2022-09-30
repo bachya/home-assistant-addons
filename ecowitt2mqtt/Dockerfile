@@ -12,6 +12,7 @@ RUN apk add --no-cache \
         python3 \
     && apk add --no-cache --virtual build-dependencies \
         build-base \
+        cmake \
         python3-dev \
         libc-dev \
         musl-dev \
