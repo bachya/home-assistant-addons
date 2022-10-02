@@ -2,7 +2,7 @@
 ARG BUILD_FROM
 FROM $BUILD_FROM
 
-ARG ECOWITT2MQTT_VERSION=2022.09.4
+ARG ECOWITT2MQTT_VERSION=2022.10.0
 
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
@@ -12,7 +12,6 @@ RUN apk add --no-cache \
         python3 \
     && apk add --no-cache --virtual build-dependencies \
         build-base \
-        cmake \
         python3-dev \
         libc-dev \
         musl-dev \
