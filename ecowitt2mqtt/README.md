@@ -84,10 +84,6 @@ The `output_unit_system` option defines the unit system to use when outputting t
 
 The `mqtt_retain` option defines whether the MQTT broker should retain data sent to it.
 
-## Option: `verbose`
-
-The `verbose` option enables verbose log output.
-
 ## Option: `mqtt_host`
 
 The `mqtt_host` option defines the MQTT host to use. If the MQTT add-on is running, this add-on will use its value by default unless this option is provided.
@@ -103,6 +99,72 @@ The `mqtt_port` option defines the MQTT port to use. If the MQTT add-on is runni
 ## Option: `mqtt_username`
 
 The `mqtt_username` option defines the MQTT username to use. If the MQTT add-on is running, this add-on will use its value by default unless this option is provided.
+
+## Option: `output_unit_accumulated_precipitation`
+
+The `output_unit_accumulated_precipitation` option defines the unit system to use when outputting accumulated precipitation data.
+
+- `in`
+- `mm`
+
+## Option: `output_unit_distance`
+
+The `output_unit_distance` option defines the unit system to use when outputting distance data.
+
+- `cm`
+- `ft`
+- `in`
+- `km`
+- `m`
+- `mi`
+- `mm`
+- `yd`
+
+## Option: `output_unit_humidity`
+
+The `output_unit_humidity` option defines the unit system to use when outputting absolute humidity data.
+
+- `g/m³`
+- `lbs/ft³`
+
+## Option: `output_unit_illuminance`
+
+The `output_unit_illuminance` option defines the unit system to use when outputting illuminance data.
+
+- `fc`
+- `kfc`
+- `klx`
+- `lx`
+- `W/m²`
+- `%`
+
+## Option: `output_unit_precipitation_rate`
+
+The `output_unit_precipitation_rate` option defines the unit system to use when outputting precipitation rate data.
+
+- `in/h`
+- `mm/h`
+
+## Option: `output_unit_speed`
+
+The `output_unit_speed` option defines the unit system to use when outputting speed data.
+
+- `ft/s`
+- `in/d`
+- `in/h`
+- `km/h`
+- `kn`
+- `m/s`
+- `mph`
+- `mm/d`
+
+## Option: `precision`
+
+The `precision` option defines the number of decimal points to round units to.
+
+## Option: `verbose`
+
+The `verbose` option enables verbose log output.
 
 # Support
 

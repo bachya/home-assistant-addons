@@ -6,6 +6,7 @@
 
 ## Add-on
 
+* Add configuration options for certain unit categories (#39)
 * Bump `ecowitt2mqtt` to 2022.10.1 (#38)
 
 # 2022.10.0
