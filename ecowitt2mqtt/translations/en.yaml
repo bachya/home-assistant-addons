@@ -39,6 +39,25 @@ configuration:
   mqtt_username:
     name: MQTT username
     description: The MQTT username to use (if not using MQTT add-on).
+  output_unit_accumulated_precipitation:
+    name: Output unit for accumulated precipitation
+    description: >-
+      The unit system to use when outputting accumulated precipitation data.
+  output_unit_distance:
+    name: Output unit for distance
+    description: The unit system to use when outputting distance data.
+  output_unit_humidity:
+    name: Output unit for absolute humidity humidity
+    description: The unit system to use when outputting absolute humidity data.
+  output_unit_illuminance:
+    name: Output unit for illuminance
+    description: The unit system to use when outputting illuminance data.
+  output_unit_precipitation_rate:
+    name: Output unit for precipitation rate
+    description: The unit system to use when outputting precipitation rate data.
+  output_unit_speed:
+    name: Output unit for speed
+    description: The unit system to use when outputting speed data.
   output_unit_system:
     name: Output unit system
     description: The unit system to use when outputting to MQTT.
