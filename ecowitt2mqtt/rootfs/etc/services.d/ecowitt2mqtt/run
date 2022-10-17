@@ -73,6 +73,9 @@ fi
 if bashio::config.has_value 'output_unit_system'; then
   ADDL_CONFIG_OPTIONS+=(--output-unit-system="$(bashio::config 'output_unit_system')")
 fi
+if bashio::config.has_value 'precision'; then
+  ADDL_CONFIG_OPTIONS+=(--precision="$(bashio::config 'precision')")
+fi
 if bashio::config.true 'verbose'; then
   ADDL_CONFIG_OPTIONS+=(--verbose)
 fi
