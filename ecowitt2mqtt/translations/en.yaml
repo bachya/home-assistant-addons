@@ -24,12 +24,6 @@ configuration:
   input_unit_system:
     name: Input unit system
     description: The incoming unit system to use.
-  output_unit_system:
-    name: Output unit system
-    description: The unit system to use when outputting to MQTT.
-  verbose:
-    name: Verbose
-    description: Enable verbose log output.
   mqtt_host:
     name: MQTT host
     description: The MQTT host to use (if not using MQTT add-on).
@@ -45,3 +39,12 @@ configuration:
   mqtt_username:
     name: MQTT username
     description: The MQTT username to use (if not using MQTT add-on).
+  output_unit_system:
+    name: Output unit system
+    description: The unit system to use when outputting to MQTT.
+  precision:
+    name: Precision
+    description: The number of decimal points to round units to.
+  verbose:
+    name: Verbose
+    description: Enable verbose log output.

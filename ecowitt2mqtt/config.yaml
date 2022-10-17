@@ -19,6 +19,7 @@ options:
   input_unit_system: imperial
   mqtt_retain: true
   output_unit_system: imperial
+  precision: 1
   verbose: false
 ports:
   "8080/tcp": 8080
@@ -39,9 +40,10 @@ schema:
   mqtt_retain: "bool"
   mqtt_username: "str?"
   output_unit_system: "list(imperial|metric)"
+  precision: "int"
   verbose: "bool"
 services:
   - "mqtt:want"
 slug: ecowitt2mqtt
 url: "https://github.com/bachya/home-assistant-addons/tree/main/ecowitt2mqtt"
-version: "2022.10.0"
+version: "2022.10.1"
