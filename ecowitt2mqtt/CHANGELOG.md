@@ -6,7 +6,7 @@
 
 ## Add-on
 
-* Bump `ecowitt2mqtt` to 2022.10.1 (#35)
+* Bump `ecowitt2mqtt` to 2022.10.1 (#38)
 
 # 2022.10.0
 
