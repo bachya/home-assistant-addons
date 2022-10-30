@@ -1,3 +1,13 @@
+# 2022.10.2
+
+## `ecowitt2mqtt`
+
+* https://github.com/bachya/ecowitt2mqtt/releases/tag/2022.10.2
+
+## Add-on
+
+* Bump `ecowitt2mqtt` to 2022.10.2 (#41)
+
 # 2022.10.1
 
 ## `ecowitt2mqtt`
