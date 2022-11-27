@@ -1,6 +1,7 @@
 ---
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 arch:
+  - i386
   - armhf
   - armv7
   - aarch64
