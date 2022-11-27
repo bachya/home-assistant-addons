@@ -6,6 +6,7 @@
 
 ## Add-on
 
+* Fix i386 build (#50)
 * Bump `ecowitt2mqtt` to 2022.11.2 (#49)
 
 # 2022.11.1
