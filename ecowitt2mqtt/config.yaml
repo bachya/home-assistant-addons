@@ -16,6 +16,7 @@ options:
   disable_calculated_data: false
   endpoint: /data/report
   hass_discovery_prefix: homeassistant
+  input_data_format: ecowitt
   input_unit_system: imperial
   mqtt_retain: true
   output_unit_system: imperial
@@ -33,6 +34,7 @@ schema:
   endpoint: "str?"
   hass_discovery_prefix: "str?"
   hass_entity_id_prefix: "str?"
+  input_data_format: "list(ambient_weather|ecowitt)"
   input_unit_system: "list(imperial|metric)"
   output_unit_system: "list(imperial|metric)"
   mqtt_host: "str?"
