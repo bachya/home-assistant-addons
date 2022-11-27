@@ -21,6 +21,9 @@ configuration:
   hass_entity_id_prefix:
     name: Entity ID prefix
     description: A string prefix to prepend on all generated entity IDs.
+  input_data_format:
+    name: Input data format
+    description: The incoming data format to use.
   input_unit_system:
     name: Input unit system
     description: The incoming unit system to use.
