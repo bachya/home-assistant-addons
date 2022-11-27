@@ -6,6 +6,7 @@
 
 ## Add-on
 
+* Update description of `ecowitt2mqtt` (#48)
 * Add translations for input data format (#47)
 * Add a config option for input data format (#46)
 * Bump `ecowitt2mqtt` to 2022.11.1 (#45)
