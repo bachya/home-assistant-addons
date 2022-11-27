@@ -66,6 +66,13 @@ The `mqtt_discovery_prefix` option defines the MQTT Discovery prefix to use.
 
 The `hass_entity_id_prefix` option defines a string prefix to prepend on all generated entity IDs.
 
+## Option: `input_data_format`
+
+The incoming data format to use. Possible values are:
+
+- `ambient_weather`
+- `ecowitt`
+
 ## Option: `input_unit_system`
 
 The `input_unit_system` option the incoming unit system to use. Possible values are:
