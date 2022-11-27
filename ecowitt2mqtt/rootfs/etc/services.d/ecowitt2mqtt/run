@@ -67,6 +67,9 @@ fi
 if bashio::config.has_value 'hass_entity_id_prefix'; then
   ADDL_CONFIG_OPTIONS+=(--hass-entity-id-prefix="$(bashio::config 'hass_entity_id_prefix')")
 fi
+if bashio::config.has_value 'input_data_format'; then
+  ADDL_CONFIG_OPTIONS+=(--input-data-format="$(bashio::config 'input_data_format')")
+fi
 if bashio::config.has_value 'input_unit_system'; then
   ADDL_CONFIG_OPTIONS+=(--input-unit-system="$(bashio::config 'input_unit_system')")
 fi
