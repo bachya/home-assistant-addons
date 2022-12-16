@@ -1,22 +1,87 @@
 ---
 repos:
-  - repo: https://github.com/codespell-project/codespell
-    rev: v1.16.0
+  - repo: local
     hooks:
-      - id: codespell
-        args:
-          - --skip="./.*,*.json"
-          - --quiet-level=4
-          - -L hass
-        exclude_types: [json]
-  - repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v2.4.0
-    hooks:
+      - id: blacken-docs
+        name: ☕️ Format documentation using black
+        language: system
+        files: '\.(rst|md|markdown|py|tex)$'
+        entry: blacken-docs
+        require_serial: true
+      - id: check-case-conflict
+        name: 🔠 Checking for case conflicts
+        language: system
+        entry: check-case-conflict
+      - id: check-executables-have-shebangs
+        name: 🧐 Checking that executables have shebangs
+        language: system
+        types: [text, executable]
+        entry: check-executables-have-shebangs
+        stages: [commit, push, manual]
       - id: check-json
+        name: ｛ Checking JSON files
+        language: system
+        types: [json]
+        entry: check-json
+      - id: check-merge-conflict
+        name: 💥 Checking for merge conflicts
+        language: system
+        types: [text]
+        entry: check-merge-conflict
+      - id: check-symlinks
+        name: 🔗 Checking for broken symlinks
+        language: system
+        types: [symlink]
+        entry: check-symlinks
       - id: check-yaml
+        name: ✅ Checking YAML files
+        language: system
+        types: [yaml]
+        entry: check-yaml
+      - id: codespell
+        name: ✅ Checking code for misspellings
+        language: system
+        types: [text]
+        entry: codespell -L hass
+      - id: detect-private-key
+        name: 🕵️  Detecting private keys
+        language: system
+        types: [text]
+        entry: detect-private-key
       - id: end-of-file-fixer
+        name: 🔚 Checking end of files
+        language: system
+        types: [text]
+        entry: end-of-file-fixer
+        stages: [commit, push, manual]
+      - id: fix-byte-order-marker
+        name: 🚏 Checking UTF-8 byte order marker
+        language: system
+        types: [text]
+        entry: fix-byte-order-marker
       - id: no-commit-to-branch
+        name: 🛑 Checking for commit to protected branch
+        language: system
+        entry: no-commit-to-branch
+        pass_filenames: false
+        always_run: true
         args:
           - --branch=dev
-          - --branch=master
+          - --branch=main
       - id: trailing-whitespace
+        name: ✄  Trimming trailing whitespace
+        language: system
+        types: [text]
+        entry: trailing-whitespace-fixer
+        stages: [commit, push, manual]
+      - id: yamllint
+        name: 🎗  Checking YAML files with yamllint
+        language: system
+        types: [yaml]
+        entry: yamllint
+
+  - repo: https://github.com/pre-commit/mirrors-prettier
+    rev: "v3.0.0-alpha.4"
+    hooks:
+      - id: prettier
+        name: 💄 Ensuring files are prettier
