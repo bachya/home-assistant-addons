@@ -6,5 +6,7 @@ Fixes https://github.com/bachya/home-assistant-addons/issues/<ISSUE ID>
 
 **Checklist:**
 
+- [ ] Confirm that one or more new tests are written for the new functionality.
+- [ ] Run tests and ensure everything passes (with 100% test coverage).
 - [ ] Update `README.md` with any new documentation.
-- [ ] Update `CHANGELOG.md` with any new documentation.
+- [ ] Add yourself to `AUTHORS.md`.
