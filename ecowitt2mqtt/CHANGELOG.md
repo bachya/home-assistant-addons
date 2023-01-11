@@ -1,3 +1,20 @@
+# 2023.01.0
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2023.01.0
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2023.01.0 (#59)
+- Bump yamllint from 1.28.0 to 1.29.0 (#58)
+- Bump release-drafter/release-drafter from 5.21.1 to 5.22.0 (#57)
+- Bump pre-commit from 2.20.0 to 2.21.0 (#56)
+- Bump actions/stale from 6 to 7 (#55)
+- Bump pre-commit-hooks from 4.3.0 to 4.4.0 (#54)
+- Add a series of new pre-commit hooks and GitHub Actions (#53)
+- Bump home-assistant/builder from 2022.09.0 to 2022.11.0 (#52)
+
 # 2022.11.3
 
 ## `ecowitt2mqtt`
