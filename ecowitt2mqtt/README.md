@@ -246,7 +246,7 @@ SOFTWARE.
 [github-actions]: https://github.com/bachya/home-assistant-addons/actions
 [issue]: https://github.com/bachya/home-assistant-addons/issues
 [license-shield]: https://img.shields.io/github/license/bachya/home-assistant-addons.svg
-[maintenance-shield]: https://img.shields.io/maintenance/yes/2022.svg
+[maintenance-shield]: https://img.shields.io/maintenance/yes/2023.svg
 [project-stage-shield]: https://img.shields.io/badge/project%20stage-production%20ready-brightgreen.svg
 [reddit]: https://reddit.com/r/homeassistant
 [releases-shield]: https://img.shields.io/github/release/bachya/home-assistant-addons.svg
