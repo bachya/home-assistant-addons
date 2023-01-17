@@ -1,4 +1,4 @@
-blacken-docs==1.12.1
+blacken-docs==1.13.0
 codespell==2.2.2
 pre-commit==2.21.0
 pre-commit-hooks==4.4.0
