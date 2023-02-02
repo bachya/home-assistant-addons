@@ -1,5 +1,5 @@
 blacken-docs==1.13.0
 codespell==2.2.2
-pre-commit==3.0.2
+pre-commit==3.0.3
 pre-commit-hooks==4.4.0
 yamllint==1.29.0
