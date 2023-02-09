@@ -1,3 +1,19 @@
+# 2023.02.0
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2023.02.0
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2023.02.0 (#66)
+- Bump pre-commit from 3.0.3 to 3.0.4 (#65)
+- Bump pre-commit from 3.0.2 to 3.0.3 (#64)
+- Bump pre-commit from 3.0.1 to 3.0.2 (#63)
+- Bump pre-commit from 3.0.0 to 3.0.1 (#62)
+- Bump pre-commit from 2.21.0 to 3.0.0 (#61)
+- Bump blacken-docs from 1.12.1 to 1.13.0 (#60)
+
 # 2023.01.0
 
 ## `ecowitt2mqtt`
