@@ -6,6 +6,7 @@
 
 ## Add-on
 
+- Bump `ecowitt2mqtt` to 2023.04.0 (#78)
 - Bump pre-commit from 3.2.1 to 3.2.2 (#77)
 - Bump pre-commit from 3.2.0 to 3.2.1 (#76)
 - Bump actions/stale from 7 to 8 (#75)
