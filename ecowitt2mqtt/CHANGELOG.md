@@ -6,15 +6,10 @@
 
 ## Add-on
 
-- Bump `ecowitt2mqtt` to 2023.04.0 (#78)
-- Bump pre-commit from 3.2.1 to 3.2.2 (#77)
-- Bump pre-commit from 3.2.0 to 3.2.1 (#76)
-- Bump actions/stale from 7 to 8 (#75)
-- Bump yamllint from 1.29.0 to 1.30.0 (#74)
-- Bump pre-commit from 3.1.1 to 3.2.0 (#73)
-- Bump home-assistant/builder from 2022.11.0 to 2023.03.0 (#72)
-- Bump codespell from 2.2.2 to 2.2.4 (#71)
-- Bump pre-commit from 3.1.0 to 3.1.1 (#70)
+- Bump `ecowitt2mqtt` to 2023.05.0 (#82)
+- Bump pre-commit from 3.3.0 to 3.3.1 (#81)
+- Bump pre-commit from 3.2.2 to 3.3.0 (#80)
+- Bump yamllint from 1.30.0 to 1.31.0 (#79)
 
 # 2023.04.0
 
