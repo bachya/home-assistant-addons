@@ -1,3 +1,16 @@
+# 2023.05.0
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2023.05.0
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2023.05.0 (#82)
+- Bump pre-commit from 3.3.0 to 3.3.1 (#81)
+- Bump pre-commit from 3.2.2 to 3.3.0 (#80)
+- Bump yamllint from 1.30.0 to 1.31.0 (#79)
+
 # 2023.04.0
 
 ## `ecowitt2mqtt`
