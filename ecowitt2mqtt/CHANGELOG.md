@@ -2,6 +2,24 @@
 
 ## `ecowitt2mqtt`
 
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2023.06.0
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2023.06.0 (#91)
+- Bump codespell from 2.2.4 to 2.2.5 (#90)
+- Bump pre-commit from 3.3.2 to 3.3.3 (#89)
+- Bump blacken-docs from 1.13.0 to 1.14.0 (#88)
+- Bump dessant/lock-threads from 4.0.0 to 4.0.1 (#87)
+- Bump home-assistant/builder from 2023.03.0 to 2023.06.0 (#86)
+- Bump docker/login-action from 2.1.0 to 2.2.0 (#85)
+- Bump yamllint from 1.31.0 to 1.32.0 (#84)
+- Bump pre-commit from 3.3.1 to 3.3.2 (#83)
+
+# 2023.05.0
+
+## `ecowitt2mqtt`
+
 - https://github.com/bachya/ecowitt2mqtt/releases/tag/2023.05.0
 
 ## Add-on
