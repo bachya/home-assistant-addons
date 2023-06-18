@@ -1,4 +1,14 @@
-# 2023.05.0
+# 2023.06.1
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2023.06.1
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2023.06.1 (#92)
+
+# 2023.06.0
 
 ## `ecowitt2mqtt`
 
