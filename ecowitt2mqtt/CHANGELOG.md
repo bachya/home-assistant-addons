@@ -1,3 +1,16 @@
+# 2023.07.0
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2023.07.0
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2023.07.0 (#97)
+- Fix breakage on debian 12 based HA (#96)
+- Bump release-drafter/release-drafter from 5.23.0 to 5.24.0 (#95)
+- Bump home-assistant/builder from 2023.06.0 to 2023.06.1 (#94)
+
 # 2023.06.1
 
 ## `ecowitt2mqtt`
