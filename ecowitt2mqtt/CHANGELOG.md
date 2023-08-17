@@ -1,3 +1,16 @@
+# 2023.08.0
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2023.08.0
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2023.08.0 (#102)
+- Bump blacken-docs from 1.15.0 to 1.16.0 (#101)
+- Bump home-assistant/builder from 2023.06.1 to 2023.08.0 (#100)
+- Bump blacken-docs from 1.14.0 to 1.15.0 (#99)
+
 # 2023.07.0
 
 ## `ecowitt2mqtt`
