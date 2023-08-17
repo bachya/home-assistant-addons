@@ -6,6 +6,7 @@
 
 ## Add-on
 
+- Remove i386 as a target (#103)
 - Bump `ecowitt2mqtt` to 2023.08.0 (#102)
 - Bump blacken-docs from 1.15.0 to 1.16.0 (#101)
 - Bump home-assistant/builder from 2023.06.1 to 2023.08.0 (#100)
