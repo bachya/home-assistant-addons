@@ -6,6 +6,7 @@
 
 ## Add-on
 
+- Attempt to download wheels from piwheels.org during ARMv6/ARMv7 build (#104)
 - Remove i386 as a target (#103)
 - Bump `ecowitt2mqtt` to 2023.08.0 (#102)
 - Bump blacken-docs from 1.15.0 to 1.16.0 (#101)
