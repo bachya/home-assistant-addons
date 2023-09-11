@@ -16,10 +16,13 @@ RUN apk add --no-cache \
         libc-dev \
         musl-dev \
     && python3 -m ensurepip \
-    && printf "[global]\nextra-index-url=https://www.piwheels.org/simple\n" > /etc/pip.conf \
+    && curl https://sh.rustup.rs -sSf | sh -s -- -y \
     && pip3 install --no-cache-dir --upgrade pip setuptools wheel \
     && pip3 install --no-cache-dir ecowitt2mqtt==${ECOWITT2MQTT_VERSION} \
     && apk del build-dependencies
+
+# Ensure Rust is in the path:
+ENV PATH="/root/.cargo/bin:${PATH}"
 
 # Copy root filesystem
 COPY rootfs /
