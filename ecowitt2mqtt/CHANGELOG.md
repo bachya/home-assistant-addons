@@ -1,3 +1,24 @@
+# 2023.11.0
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2023.11.0
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2023.11.0 (#117)
+- Update `ecowitt2mqtt` description in README (#116)
+- Remove `armhf` as a build arch (#115)
+- Bump release-drafter/release-drafter from 5.24.0 to 5.25.0 (#114)
+- Bump pre-commit from 3.4.0 to 3.5.0 (#113)
+- Bump pre-commit-hooks from 4.4.0 to 4.5.0 (#112)
+- Bump codespell from 2.2.5 to 2.2.6 (#111)
+- Bump home-assistant/builder from 2023.08.0 to 2023.09.0 (#110)
+- Bump docker/login-action from 2.2.0 to 3.0.0 (#109)
+- Ensure Rust is present during build (#108)
+- Bump actions/checkout from 3 to 4 (#107)
+- Bump pre-commit from 3.3.3 to 3.4.0 (#106)
+
 # 2023.08.0
 
 ## `ecowitt2mqtt`
