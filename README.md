@@ -12,8 +12,7 @@
 ![Supports amd64 Architecture][amd64-shield]
 ![Supports armv7 Architecture][armv7-shield]
 
-`ecowitt2mqtt` is a small CLI/web server that allows [Ecowitt](http://www.ecowitt.com)
-device data to be sent to an MQTT broker.
+`ecowitt2mqtt` a small CLI/web server that can receive data from Fine Offset weather stations (and their numerous white-labeled counterparts, like Ecowitt and Ambient Weather), adjust that data in numerous ways, and send it on to one or more MQTT brokers.
 
 [aarch64-shield]: https://img.shields.io/badge/aarch64-yes-green.svg
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
