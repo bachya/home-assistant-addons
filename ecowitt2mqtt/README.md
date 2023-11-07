@@ -6,7 +6,7 @@
 
 ![Supports aarch64 Architecture][aarch64-shield]
 ![Supports amd64 Architecture][amd64-shield]
-![Supports armv7 Architecture][armv7-shield]
+![Supports armhf Architecture][armhf-shield]
 
 [![Github Actions][github-actions-shield]][github-actions]
 ![Project Maintenance][maintenance-shield]
@@ -228,7 +228,7 @@ SOFTWARE.
 [addon-badge]: https://my.home-assistant.io/badges/supervisor_addon.svg
 [addon]: https://my.home-assistant.io/redirect/supervisor_addon/?addon=c35f0383_ecowitt2mqtt&repository_url=https%3A%2F%2Fgithub.com%2Fbachya%2Fhome-assistant-addons
 [amd64-shield]: https://img.shields.io/badge/amd64-yes-green.svg
-[armv7-shield]: https://img.shields.io/badge/armv7-yes-green.svg
+[armhf-shield]: https://img.shields.io/badge/armhf-yes-green.svg
 [bachya]: https://github.com/bachya
 [commits-shield]: https://img.shields.io/github/commit-activity/y/bachya/home-assistant-addons.svg
 [commits]: https://github.com/bachya/home-assistant-addons/commits/main
