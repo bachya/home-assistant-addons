@@ -1,3 +1,14 @@
+# 2023.11.1
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2023.11.1
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2023.11.1 (#123)
+- Remove i386 and armv7 build architectures (#122)
+
 # 2023.11.0
 
 ## `ecowitt2mqtt`
