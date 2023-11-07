@@ -6,6 +6,7 @@
 
 ## Add-on
 
+- Fix Docker image (#126)
 - Use piwheels.org whenever possible (#125)
 - Remove Rust from the Dockerfile (#124)
 - Bump `ecowitt2mqtt` to 2023.11.1 (#123)
