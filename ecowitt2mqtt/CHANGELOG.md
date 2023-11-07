@@ -6,6 +6,7 @@
 
 ## Add-on
 
+- Use piwheels.org whenever possible (#125)
 - Remove Rust from the Dockerfile (#124)
 - Bump `ecowitt2mqtt` to 2023.11.1 (#123)
 - Remove i386 and armv7 build architectures (#122)
