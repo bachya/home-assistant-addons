@@ -1,3 +1,15 @@
+# 2023.11.2
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2023.11.2
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2023.11.2 (#129)
+- Bump dessant/lock-threads from 4.0.1 to 5.0.0 (#128)
+- Bump yamllint from 1.32.0 to 1.33.0 (#127)
+
 # 2023.11.1
 
 ## `ecowitt2mqtt`
