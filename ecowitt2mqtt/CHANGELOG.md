@@ -6,11 +6,9 @@
 
 ## Add-on
 
-- Fix Docker image (#126)
-- Use piwheels.org whenever possible (#125)
-- Remove Rust from the Dockerfile (#124)
-- Bump `ecowitt2mqtt` to 2023.11.1 (#123)
-- Remove i386 and armv7 build architectures (#122)
+- Bump `ecowitt2mqtt` to 2023.11.2 (#129)
+- Bump dessant/lock-threads from 4.0.1 to 5.0.0 (#128)
+- Bump yamllint from 1.32.0 to 1.33.0 (#127)
 
 # 2023.11.1
 
