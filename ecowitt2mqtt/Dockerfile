@@ -21,11 +21,10 @@ RUN apk add --no-cache \
         python3 \
     && apk add --no-cache --virtual build-dependencies \
         build-base \
-        build-dependencies \
-        python3-dev \
-        python-cffi \
         libc-dev \
         musl-dev \
+        py3-cffi \
+        python3-dev \
     && python3 -m ensurepip \
     && printf "[global]\nextra-index-url=https://www.piwheels.org/simple\n" > /etc/pip.conf \
     && pip3 install --no-cache-dir --upgrade pip setuptools wheel \
