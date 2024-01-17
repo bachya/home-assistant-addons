@@ -73,6 +73,9 @@ fi
 if bashio::config.has_value 'input_unit_system'; then
   ADDL_CONFIG_OPTIONS+=(--input-unit-system="$(bashio::config 'input_unit_system')")
 fi
+if bashio::config.true 'mqtt_retain'; then
+  ADDL_CONFIG_OPTIONS+=(--mqtt-retain)
+fi
 if bashio::config.has_value 'output_unit_accumulated_precipitation'; then
   ADDL_CONFIG_OPTIONS+=(--output-unit-accumulated-precipitation="$(bashio::config 'output_unit_accumulated_precipitation')")
 fi
