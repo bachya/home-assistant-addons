@@ -21,6 +21,7 @@ RUN apk add --no-cache \
         python3 \
     && apk add --no-cache --virtual build-dependencies \
         build-base \
+        build-dependencies \
         python3-dev \
         python-cffi \
         libc-dev \
