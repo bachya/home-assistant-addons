@@ -6,6 +6,7 @@
 
 ## Add-on
 
+- Remove unnecessary comment in Dockerfile (#144)
 - Fix incorrect newlines in builder workflow (#143)
 - Make builder-test workflow always available (#142)
 - Bump `ecowitt2mqtt` to 2024.01.0 (#141)
