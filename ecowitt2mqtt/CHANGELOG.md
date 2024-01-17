@@ -6,6 +6,7 @@
 
 ## Add-on
 
+- Make builder-test workflow always available (#142)
 - Bump `ecowitt2mqtt` to 2024.01.0 (#141)
 - Fix disconnected MQTT retain config option in ecowitt2mqtt add-on (#140)
 - Update the builder workflow to current standards (#139)
