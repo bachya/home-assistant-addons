@@ -11,7 +11,7 @@ ENV CRYPTOGRAPHY_VERSION=41.0.7 \
     PYTHONHASHSEED=random \
     PYTHONUNBUFFERED=1
 
-ARG ECOWITT2MQTT_VERSION=2023.11.1
+ARG ECOWITT2MQTT_VERSION=2024.01.0
 
 # Set shell
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
@@ -21,9 +21,10 @@ RUN apk add --no-cache \
         python3 \
     && apk add --no-cache --virtual build-dependencies \
         build-base \
-        python3-dev \
         libc-dev \
         musl-dev \
+        py3-cffi \
+        python3-dev \
     && python3 -m ensurepip \
     && printf "[global]\nextra-index-url=https://www.piwheels.org/simple\n" > /etc/pip.conf \
     && pip3 install --no-cache-dir --upgrade pip setuptools wheel \
