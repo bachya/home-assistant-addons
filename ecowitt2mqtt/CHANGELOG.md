@@ -7,7 +7,7 @@
 ## Add-on
 
 - Bump `ecowitt2mqtt` to 2024.01.0 (#141)
-- Fix disconnected MQTT retain config option in ecowitt2mqtt add-on (140)
+- Fix disconnected MQTT retain config option in ecowitt2mqtt add-on (#140)
 - Update the builder workflow to current standards (#139)
 - Fix build of `armv7` and `aarch` images (#138)
 - Bump home-assistant/builder from 2023.12.0 to 2024.01.0 (#136)
