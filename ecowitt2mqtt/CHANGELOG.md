@@ -1,3 +1,22 @@
+# 2024.01.0
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2024.01.0
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2024.01.0 (#141)
+- Fix disconnected MQTT retain config option in ecowitt2mqtt add-on (140)
+- Update the builder workflow to current standards (#139)
+- Fix build of `armv7` and `aarch` images (#138)
+- Bump home-assistant/builder from 2023.12.0 to 2024.01.0 (#136)
+- Bump home-assistant/builder from 2023.09.0 to 2023.12.0 (#135)
+- Bump pre-commit from 3.5.0 to 3.6.0 (#134)
+- Bump actions/stale from 8 to 9 (#133)
+- Bump actions/setup-python from 4 to 5 (#132)
+- Bump dessant/lock-threads from 5.0.0 to 5.0.1 (#130)
+
 # 2023.11.2
 
 ## `ecowitt2mqtt`
