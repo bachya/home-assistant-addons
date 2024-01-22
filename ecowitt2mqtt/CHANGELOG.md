@@ -1,3 +1,15 @@
+# 2024.01.1
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2024.01.1
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2024.01.1 (#147)
+- Bump actions/cache from 3 to 4 (#146)
+- Bump actions/checkout from 3 to 4 (#145)
+
 # 2024.01.0
 
 ## `ecowitt2mqtt`
