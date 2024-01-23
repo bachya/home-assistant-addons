@@ -4,6 +4,7 @@ arch:
   - aarch64
   - amd64
   - armhf
+  - armv7
 description: >-
   A web server to send data from Fine Offset devices (including white-labeled
   brands, like Ambient Weather and Ecowitt) to an MQTT Broker
@@ -11,6 +12,7 @@ image: "ghcr.io/bachya/home-assistant-addon-ecowitt2mqtt-{arch}"
 init: false
 name: ecowitt2mqtt
 options:
+  boolean_battery_true_value: "1"
   default_battery_strategy: numeric
   diagnostics: false
   disable_calculated_data: false
@@ -28,6 +30,7 @@ ports_description:
   "8080/tcp": >-
     The port the Ecowitt gateway will use to submit data to Home Assistant
 schema:
+  boolean_battery_true_value: "list(0|1)"
   default_battery_strategy: "list(boolean|numeric|percentage)"
   diagnostics: "bool"
   disable_calculated_data: "bool"
@@ -54,4 +57,4 @@ services:
   - "mqtt:want"
 slug: ecowitt2mqtt
 url: "https://github.com/bachya/home-assistant-addons/tree/main/ecowitt2mqtt"
-version: "2024.01.0"
+version: "2024.01.1"

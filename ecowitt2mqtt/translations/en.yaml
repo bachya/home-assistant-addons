@@ -1,5 +1,9 @@
 ---
 configuration:
+  boolean_battery_true_value:
+    name: "Boolean battery true value"
+    description: >-
+      The value for which a boolean-type battery should be considered "on"
   default_battery_strategy:
     name: Default battery strategy
     description: >-
