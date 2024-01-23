@@ -41,26 +41,30 @@ jobs:
 
       - name: 🤔 Determine which images to build
         id: build-args
+        shell: bash
         run: |-
-          #!/bin/bash
           args=()
 
           if [[ ${{ github.event_name }} == "pull_request" ]]; then
             args+=("--all")  # Include all checkboxes by default
           else
-            if [[ ${{ github.event.inputs.amd64 }} == "true" ]]; then
-              args+=("--amd64")
-            fi
-
-            if [[ ${{ github.event.inputs.aarch64 }} == "true" ]]; then
+            local aarch64="${{ github.event.inputs.aarch64 }}"
+            if [[ ! -z "$aarch64" == "true" ]]; then
               args+=("--aarch64")
             fi
 
-            if [[ ${{ github.event.inputs.armhf }} == "true" ]]; then
+            local amd64="${{ github.event.inputs.amd64 }}"
+            if [[ ! -z "$amd64" == "true" ]]; then
+              args+=("--amd64")
+            fi
+
+            local armhf="${{ github.event.inputs.armhf }}"
+            if [[ ! -z "$armhf" == "true" ]]; then
               args+=("--armhf")
             fi
 
-            if [[ ${{ github.event.inputs.armv7 }} == "true" ]]; then
+            local armv7="${{ github.event.inputs.armv7 }}"
+            if [[ ! -z "$armv7" == "true" ]]; then
               args+=("--armv7")
             fi
           fi
