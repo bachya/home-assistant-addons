@@ -71,7 +71,7 @@ jobs:
 
           echo "{args}={args[@]}" >> $GITHUB_OUTPUT
 
-      - name: 🚧 Test builds
+      - name: 🚧 Test build
         uses: home-assistant/builder@master
         with:
           args: |
