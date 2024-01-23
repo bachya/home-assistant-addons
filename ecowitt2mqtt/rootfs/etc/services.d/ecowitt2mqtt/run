@@ -49,6 +49,9 @@ bashio::log.info "Using MQTT password: REDACTED"
 # Define config options to use:
 ADDL_CONFIG_OPTIONS=()
 
+if bashio::config.has_value 'boolean_battery_true_value'; then
+  ADDL_CONFIG_OPTIONS+=(--boolean-battery-true-value="$(bashio::config 'boolean_battery_true_value')")
+fi
 if bashio::config.has_value 'default_battery_strategy'; then
   ADDL_CONFIG_OPTIONS+=(--default-battery-strategy="$(bashio::config 'default_battery_strategy')")
 fi
