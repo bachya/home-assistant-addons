@@ -47,19 +47,19 @@ jobs:
           if [[ ${{ github.event_name }} == "pull_request" ]]; then
             args+=("--all")  # Include all checkboxes by default
           else
-            if [[ ${{ github.event.inputs.amd64 }} == "true" ]]; then
+            if [[ ${{ inputs.amd64 }} == "true" ]]; then
               args+=("--amd64")
             fi
 
-            if [[ ${{ github.event.inputs.aarch64 }} == "true" ]]; then
+            if [[ ${{ inputs.aarch64 }} == "true" ]]; then
               args+=("--aarch64")
             fi
 
-            if [[ ${{ github.event.inputs.armhf }} == "true" ]]; then
+            if [[ ${{ inputs.armhf }} == "true" ]]; then
               args+=("--armhf")
             fi
 
-            if [[ ${{ github.event.inputs.armv7 }} == "true" ]]; then
+            if [[ ${{ inputs.armv7 }} == "true" ]]; then
               args+=("--armv7")
             fi
           fi
