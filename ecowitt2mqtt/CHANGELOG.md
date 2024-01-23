@@ -1,3 +1,14 @@
+# 2024.01.2
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2024.01.2
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2024.01.2 (#149)
+- Automatically build and test every PR (#148)
+
 # 2024.01.1
 
 ## `ecowitt2mqtt`
