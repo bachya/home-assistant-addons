@@ -1,20 +1,75 @@
 ---
-name: Builder Test
+name: Test Builds
 
 "on":
+  pull_request:
+    branches:
+      - dev
+
   workflow_dispatch:
+    inputs:
+      amd64:
+        type: boolean
+        description: amd64
+        required: false
+        default: true
+      aarch64:
+        type: boolean
+        description: aarch64
+        required: false
+        default: true
+      armhf:
+        type: boolean
+        description: armhf
+        required: false
+        default: true
+      armv7:
+        type: boolean
+        description: armv7
+        required: false
+        default: true
 
 jobs:
   build:
     name: Test build
+
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout the repository
+      - name: ⤵️ Check out code from GitHub
         uses: actions/checkout@v4
-      - name: Test build
+
+      - name: Set Defaults and Build with Command Line Arguments
+        id: build-args
+        shell: bash
+        run: |-
+          args=()
+          if [[ ${{ github.event_name }} == 'pull_request' ]]; then
+            args+=("--all")  # Include all checkboxes by default
+          else
+            if [[ ${{ github.event.inputs.amd64 }} == 'true' ]]; then
+              args+=("--amd64")
+            fi
+
+            if [[ ${{ github.event.inputs.aarch64 }} == 'true' ]]; then
+              args+=("--aarch64")
+            fi
+
+            if [[ ${{ github.event.inputs.armhf }} == 'true' ]]; then
+              args+=("--armhf")
+            fi
+
+            if [[ ${{ github.event.inputs.armv7 }} == 'true' ]]; then
+              args+=("--armv7")
+            fi
+          fi
+
+          echo "{args}={args[@]}" >> $GITHUB_OUTPUT
+
+      - name: 🚧 Test build
         uses: home-assistant/builder@master
         with:
           args: |
             --test \
-            --all \
-            --target ecowitt2mqtt
+            --target ecowitt2mqtt \
+            ${{ steps.build-args.outputs.args }}
