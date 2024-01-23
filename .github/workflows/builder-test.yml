@@ -39,34 +39,34 @@ jobs:
       - name: ⤵️ Check out code from GitHub
         uses: actions/checkout@v4
 
-      - name: Set Defaults and Build with Command Line Arguments
+      - name: 🤔 Determine which images to build
         id: build-args
         shell: bash
         run: |-
           args=()
-          if [[ ${{ github.event_name }} == 'pull_request' ]]; then
+          if [[ ${{ github.event_name }} == "pull_request" ]]; then
             args+=("--all")  # Include all checkboxes by default
           else
-            if [[ ${{ github.event.inputs.amd64 }} == 'true' ]]; then
+            if [[ ${{ github.event.inputs.amd64 }} == "true" ]]; then
               args+=("--amd64")
             fi
 
-            if [[ ${{ github.event.inputs.aarch64 }} == 'true' ]]; then
+            if [[ ${{ github.event.inputs.aarch64 }} == "true" ]]; then
               args+=("--aarch64")
             fi
 
-            if [[ ${{ github.event.inputs.armhf }} == 'true' ]]; then
+            if [[ ${{ github.event.inputs.armhf }} == "true" ]]; then
               args+=("--armhf")
             fi
 
-            if [[ ${{ github.event.inputs.armv7 }} == 'true' ]]; then
+            if [[ ${{ github.event.inputs.armv7 }} == "true" ]]; then
               args+=("--armv7")
             fi
           fi
 
           echo "{args}={args[@]}" >> $GITHUB_OUTPUT
 
-      - name: 🚧 Test build
+      - name: 🚧 Test builds
         uses: home-assistant/builder@master
         with:
           args: |
