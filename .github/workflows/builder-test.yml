@@ -65,7 +65,7 @@ jobs:
             fi
           fi
 
-          echo "arguments=args[@]" >> $GITHUB_OUTPUT
+          echo "arguments=${args[@]}" >> $GITHUB_OUTPUT
 
       - name: 🚧 Test build
         uses: home-assistant/builder@master
