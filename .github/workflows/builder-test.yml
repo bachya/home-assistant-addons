@@ -65,7 +65,7 @@ jobs:
             fi
           fi
 
-          echo "{args}={args[@]}" >> $GITHUB_OUTPUT
+          echo "{arguments}={args[@]}" >> $GITHUB_OUTPUT
 
       - name: 🚧 Test build
         uses: home-assistant/builder@master
@@ -73,4 +73,4 @@ jobs:
           args: |
             --test \
             --target ecowitt2mqtt \
-            ${{ steps.build-args.outputs.args }}
+            ${{ steps.build-args.outputs.arguments }}
