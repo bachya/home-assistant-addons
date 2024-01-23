@@ -6,7 +6,8 @@
 
 ## Add-on
 
-- Bump `ecowitt2mqtt` to 2024.01.2 (#148)
+- Bump `ecowitt2mqtt` to 2024.01.2 (#149)
+- Automatically build and test every PR (#148)
 
 # 2024.01.1
 
