@@ -46,6 +46,6 @@ jobs:
           pip install -r requirements-dev.txt
 
       - name: 🚀 Run pre-commit hooks
-        uses: pre-commit/action@v3.0.0
+        uses: pre-commit/action@v3.0.1
         env:
           SKIP: no-commit-to-branch,pytest
