@@ -1,3 +1,23 @@
+# 2024.04.0
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2024.04.0
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2024.04.0 (#161)
+- Bump pre-commit from 3.6.2 to 3.7.0 (#160)
+- Bump home-assistant/builder from 2024.01.0 to 2024.03.5 (#159)
+- Bump docker/login-action from 3.0.0 to 3.1.0 (#158)
+- Bump yamllint from 1.35.0 to 1.35.1 (#157)
+- Bump pre-commit from 3.6.1 to 3.6.2 (#156)
+- Bump yamllint from 1.34.0 to 1.35.0 (#155)
+- Bump pre-commit from 3.6.0 to 3.6.1 (#154)
+- Bump pre-commit/action from 3.0.0 to 3.0.1 (#153)
+- Bump yamllint from 1.33.0 to 1.34.0 (#152)
+- Bump release-drafter/release-drafter from 5.25.0 to 6.0.0 (#151)
+
 # 2024.01.2
 
 ## `ecowitt2mqtt`
