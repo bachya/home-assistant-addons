@@ -57,4 +57,4 @@ services:
   - "mqtt:want"
 slug: ecowitt2mqtt
 url: "https://github.com/bachya/home-assistant-addons/tree/main/ecowitt2mqtt"
-version: "2024.01.2"
+version: "2024.04.0"
