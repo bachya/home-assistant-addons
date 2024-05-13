@@ -35,16 +35,24 @@ if bashio::config.has_value 'mqtt_password'; then
 fi
 
 # Fail if we're missing MQTT config:
-if [[ -z "${MQTT_HOST}" || -z "${MQTT_PORT}" || -z "${MQTT_USERNAME}" || -z "${MQTT_PASSWORD}" ]]; then
-  bashio::log.fatal "MQTT configuration not found; cannot continue."
+if [[ -z "${MQTT_HOST}" || -z "${MQTT_PORT}" ]]; then
+  bashio::log.fatal "MQTT host configuration not found; cannot continue."
   exit 1
 fi
 
 # Log the MQTT parameters:
 bashio::log.info "Using MQTT host: ${MQTT_HOST}"
 bashio::log.info "Using MQTT port: ${MQTT_PORT}"
-bashio::log.info "Using MQTT username: ${MQTT_USERNAME}"
-bashio::log.info "Using MQTT password: REDACTED"
+if [[ ! -z "${MQTT_USERNAME}" ]]; then
+  bashio::log.info "Using MQTT username: ${MQTT_USERNAME}"
+  bashio::log.info "Using MQTT password: REDACTED"
+  MQTT_USER_ARG="--mqtt-username=${MQTT_USERNAME}"
+  MQTT_PASS_ARG="--mqtt-password=${MQTT_PASSWORD}"
+else
+  bashio::log.info "No MQTT credentials provided."
+  MQTT_USER_ARG=""
+  MQTT_PASS_ARG=""
+fi
 
 # Define config options to use:
 ADDL_CONFIG_OPTIONS=()
@@ -112,8 +120,8 @@ bashio::log.info "Starting Ecowitt2MQTT"
 exec ecowitt2mqtt \
     --mqtt-broker="${MQTT_HOST}" \
     --mqtt-port="${MQTT_PORT}" \
-    --mqtt-username="${MQTT_USERNAME}" \
-    --mqtt-password="${MQTT_PASSWORD}" \
+    ${MQTT_USER_ARG} \
+    ${MQTT_PASS_ARG} \
     --port=8080 \
     --hass-discovery \
     "${ADDL_CONFIG_OPTIONS[@]}"

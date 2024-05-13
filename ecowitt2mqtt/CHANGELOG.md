@@ -26,6 +26,7 @@
 
 ## Add-on
 
+- Do not stop plug-in on instances where no MQTT credentials are provided (#146)
 - Fix missing boolean battery true config option (#150)
 - Bump `ecowitt2mqtt` to 2024.01.2 (#149)
 - Automatically build and test every PR (#148)
