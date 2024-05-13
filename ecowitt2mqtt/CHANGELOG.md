@@ -1,3 +1,16 @@
+# 2024.05.0
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2024.05.0
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2024.05.0 (#166)
+- Bump pre-commit from 3.7.0 to 3.7.1 (#165)
+- Do not stop plug-in on instances where no MQTT credentials are provided (#164)
+- Bump pre-commit-hooks from 4.5.0 to 4.6.0 (#161)
+
 # 2024.04.0
 
 ## `ecowitt2mqtt`
@@ -26,7 +39,6 @@
 
 ## Add-on
 
-- Do not stop plug-in on instances where no MQTT credentials are provided (#146)
 - Fix missing boolean battery true config option (#150)
 - Bump `ecowitt2mqtt` to 2024.01.2 (#149)
 - Automatically build and test every PR (#148)
