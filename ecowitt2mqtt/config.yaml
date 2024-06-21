@@ -20,6 +20,7 @@ options:
   hass_discovery_prefix: homeassistant
   input_data_format: ecowitt
   input_unit_system: imperial
+  locale: en_US.UTF-8
   mqtt_retain: true
   output_unit_system: imperial
   precision: 1
@@ -39,6 +40,7 @@ schema:
   hass_entity_id_prefix: "str?"
   input_data_format: "list(ambient_weather|ecowitt)"
   input_unit_system: "list(imperial|metric)"
+  locale: "str?"
   output_unit_system: "list(imperial|metric)"
   mqtt_host: "str?"
   mqtt_password: "password?"

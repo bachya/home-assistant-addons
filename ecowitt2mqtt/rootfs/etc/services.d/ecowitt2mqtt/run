@@ -84,6 +84,9 @@ fi
 if bashio::config.has_value 'input_unit_system'; then
   ADDL_CONFIG_OPTIONS+=(--input-unit-system="$(bashio::config 'input_unit_system')")
 fi
+if bashio::config.has_value 'locale'; then
+  ADDL_CONFIG_OPTIONS+=(--locale="$(bashio::config 'locale')")
+fi
 if bashio::config.true 'mqtt_retain'; then
   ADDL_CONFIG_OPTIONS+=(--mqtt-retain)
 fi
