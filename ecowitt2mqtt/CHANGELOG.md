@@ -1,3 +1,13 @@
+# 2024.06.2
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2024.06.2
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2024.06.2 (#171)
+
 # 2024.06.1
 
 ## `ecowitt2mqtt`
