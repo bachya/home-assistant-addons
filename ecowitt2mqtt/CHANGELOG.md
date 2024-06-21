@@ -6,6 +6,7 @@
 
 ## Add-on
 
+- Add ability to configure locale in the `ecowitt2mqtt` addon (#172)
 - Bump `ecowitt2mqtt` to 2024.06.2 (#171)
 
 # 2024.06.1
