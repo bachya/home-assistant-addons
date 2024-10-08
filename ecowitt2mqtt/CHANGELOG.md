@@ -1,3 +1,21 @@
+# 2024.10.0
+
+## `ecowitt2mqtt`
+
+- https://github.com/bachya/ecowitt2mqtt/releases/tag/2024.10.0
+
+## Add-on
+
+- Bump `ecowitt2mqtt` to 2024.10.0 (#182)
+- Bump pre-commit-hooks from 4.6.0 to 5.0.0 (#181)
+- Bump pre-commit from 3.8.0 to 4.0.0 (#180)
+- Bump home-assistant/builder from 2024.08.1 to 2024.08.2 (#179)
+- Bump home-assistant/builder from 2024.08.0 to 2024.08.1 (#178)
+- Bump home-assistant/builder from 2024.03.5 to 2024.08.0 (#177)
+- Bump pre-commit from 3.7.1 to 3.8.0 (#176)
+- Bump docker/login-action from 3.2.0 to 3.3.0 (#175)
+- Bump blacken-docs from 1.16.0 to 1.18.0 (#174)
+
 # 2024.06.2
 
 ## `ecowitt2mqtt`
