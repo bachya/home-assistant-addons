@@ -107,7 +107,8 @@ jobs:
 
       - name: Build ${{ matrix.addon }} add-on
         if: steps.check.outputs.build_arch == 'true'
-        uses: home-assistant/builder@6cb4fd3d1338b6e22d0958a4bcb53e0965ea63b4 # 2026.02.1
+        # 2026.02.1
+        uses: home-assistant/builder@6cb4fd3d1338b6e22d0958a4bcb53e0965ea63b4
         with:
           args: |
             ${{ env.BUILD_ARGS }} \
