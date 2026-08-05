@@ -68,7 +68,7 @@ jobs:
           echo "arguments=${args[@]}" >> $GITHUB_OUTPUT
 
       - name: 🚧 Test build
-        uses: home-assistant/builder@master
+        uses: home-assistant/builder@6cb4fd3d1338b6e22d0958a4bcb53e0965ea63b4 # 2026.02.1
         with:
           args: |
             --test \

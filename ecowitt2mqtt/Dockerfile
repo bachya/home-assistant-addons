@@ -26,9 +26,9 @@ RUN apk add --no-cache \
         python3-dev \
     && python3 -m ensurepip \
     && printf "[global]\nextra-index-url=https://www.piwheels.org/simple\n" > /etc/pip.conf \
-    && pip3 install --no-cache-dir --upgrade pip setuptools wheel \
-    && pip3 install --no-cache-dir cryptography==${CRYPTOGRAPHY_VERSION} \
-    && pip3 install --no-cache-dir ecowitt2mqtt==${ECOWITT2MQTT_VERSION} \
+    && pip3 install --no-cache-dir --break-system-packages --upgrade pip setuptools wheel \
+    && pip3 install --no-cache-dir --break-system-packages cryptography==${CRYPTOGRAPHY_VERSION} \
+    && pip3 install --no-cache-dir --break-system-packages ecowitt2mqtt==${ECOWITT2MQTT_VERSION} \
     && apk del build-dependencies
 
 # Copy root filesystem
