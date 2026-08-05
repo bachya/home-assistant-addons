@@ -18,16 +18,6 @@ name: Test Builds
         description: aarch64
         required: false
         default: true
-      armhf:
-        type: boolean
-        description: armhf
-        required: false
-        default: true
-      armv7:
-        type: boolean
-        description: armv7
-        required: false
-        default: true
 
 jobs:
   build:
@@ -46,7 +36,7 @@ jobs:
           args=()
 
           if [[ ${{ github.event_name }} == "pull_request" ]]; then
-            args+=("--all")  # Include all checkboxes by default
+            args+=("--amd64" "--aarch64")  # Build all supported archs by default
           else
             if [[ "${{ github.event.inputs.aarch64 }}" == "true" ]]; then
               args+=("--aarch64")
@@ -54,14 +44,6 @@ jobs:
 
             if [[ "${{ github.event.inputs.amd64 }}" == "true" ]]; then
               args+=("--amd64")
-            fi
-
-            if [[ "${{ github.event.inputs.armhf }}" == "true" ]]; then
-              args+=("--armhf")
-            fi
-
-            if [[ "${{ github.event.inputs.armv7 }}" == "true" ]]; then
-              args+=("--armv7")
             fi
           fi
 
