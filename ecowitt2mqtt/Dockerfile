@@ -24,7 +24,7 @@ RUN apk add --no-cache \
         musl-dev \
         py3-cffi \
         python3-dev \
-    && python3 -m ensurepip \
+    && python3 -m ensurepip --break-system-packages \
     && printf "[global]\nextra-index-url=https://www.piwheels.org/simple\n" > /etc/pip.conf \
     && pip3 install --no-cache-dir --break-system-packages --upgrade pip setuptools wheel \
     && pip3 install --no-cache-dir --break-system-packages cryptography==${CRYPTOGRAPHY_VERSION} \
