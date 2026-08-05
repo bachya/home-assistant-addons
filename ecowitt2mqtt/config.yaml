@@ -3,8 +3,6 @@
 arch:
   - aarch64
   - amd64
-  - armhf
-  - armv7
 description: >-
   A web server to send data from Fine Offset devices (including white-labeled
   brands, like Ambient Weather and Ecowitt) to an MQTT Broker
