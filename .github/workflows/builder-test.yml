@@ -51,7 +51,7 @@ jobs:
 
       - name: 🚧 Test build
         # 2026.02.1
-        uses: home-assistant/builder@6cb4fd3d1338b6e22d0958a4bcb53e0965ea63b4
+        uses: home-assistant/builder@4de35182ce1e329181bffcbcc84d33db5e2c7e10
         with:
           args: |
             --test \
