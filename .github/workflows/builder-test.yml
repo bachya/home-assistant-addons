@@ -27,7 +27,7 @@ jobs:
 
     steps:
       - name: ⤵️ Check out code from GitHub
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: 🤔 Determine which images to build
         id: build-args
